@@ -36,6 +36,7 @@ message MLWorkerInfo{
     bool is_remote = 6;
     uint32 pid = 7;
     uint64 process_start_time = 8;
+    string giskard_client_version = 9;
 }
 
 message PlatformInfo{
